@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true, // 允许编译js文件
+    "skipLibCheck": true, // 跳过类型检查
+    "esModuleInterop": true, // 允许使用es6模块
+    "allowSyntheticDefaultImports": true, // 允许使用默认导入
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx", // 支持jsx语法, 编译成react.createElement()
+    // "sourceMap": true
+  },
+  "include": [
+    "src"
+  ]
+}
