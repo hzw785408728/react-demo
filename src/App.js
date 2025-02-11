@@ -10,7 +10,7 @@ function App () {
     setAge(age=>age+1);
   }, [name]);
   return (<>
-    <h1 className='user-name'>{name}</h1>
+    <h1 className='user-name222'>{name}</h1>
     <h1>{age}</h1>
     <input value={name} onChange={e => {
       setName(e.target.value);
