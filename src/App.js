@@ -19,6 +19,10 @@ function App () {
   </>)
 }
 
+function test(){
+  console.log('test');
+}
+
 
 
 export default App;
